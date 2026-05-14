@@ -8,14 +8,17 @@
   </head>
   <body>
     <h1 class="test">Country Explorer</h1>
-    <section class="country form">
+    <section class="country-form">
       <div class="country-input-container">
-        <label for="country-input-label">Enter the country name : </label>
-        <input type="text" id="country-input-label" name="country"/>
-        <button>Search</button>
+        <label for="country-input" id="country-input-label">Enter the country name : </label>
+        <input type="text" id="country-input" name="country"/>
+        <button class="search-btn">Search</button>
       </div>
+          <div id="result">
+      <h3>Here is the result</h3>
+    </div>
     </section>
-    <div id="result"></div>
+
     <script type="module" src="js/main.js"></script>
   </body>
 </html>

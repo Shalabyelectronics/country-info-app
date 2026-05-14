@@ -1,3 +1,82 @@
-.test {
-    color: red;
+/* 
+body          → font-family, display, flex-direction, align-items, min-height, margin, background-color
+*/
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #EDE9E6;
+}
+
+/* 
+h1            → color, margin-bottom
+*/
+h1 {
+  color: #462c7d;
+  margin-bottom: 2rem;
+}
+
+/* 
+.country-form → width, max-width, padding
+*/
+
+.country-form {
+  padding: 1rem;
+  width: 100%;
+  max-width: 500px;
+  
+}
+
+.country-input-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+/* 
+input         → padding, border, border-radius, font-size, flex (set to 1)
+
+*/
+
+#country-input {
+  padding: 0.3rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  flex: 1;
+}
+
+
+#country-input-label {
+    font-size: 1.2rem;
+}
+/* 
+button        → padding, background-color, color, border, border-radius, cursor, font-size
+
+*/
+
+.search-btn {
+    padding: 0.3rem;
+    background-color: #831C91;
+    color: #ffffff;
+    border: 1px solid #831C91;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.search-btn:hover {
+    background-color: #462c7d;
+}
+
+
+#result {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 2px solid #462c7d;
+    border-radius: 8px;
 }
