@@ -80,3 +80,12 @@ button        → padding, background-color, color, border, border-radius, curso
     border: 2px solid #462c7d;
     border-radius: 8px;
 }
+
+#result .inner {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}

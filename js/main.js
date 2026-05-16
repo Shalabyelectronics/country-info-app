@@ -11,7 +11,7 @@ searchBTN.addEventListener("click", (e) => {
       .then((res) => {
         const [country] = res;
 
-        resultBox.innerHTML = `<div> 
+        resultBox.innerHTML = `<div class="inner"> 
         <img src="${country.flags.svg}" width="250" hight="200" alt="country flag" />
         <ul>
         <li>Country name: ${country.name.common}</li>
